@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(216,241,230,0.46) 0.1%, rgba(233,226,226,0.28) 90.1% );
+}
+
+.container {
+	width:350px !important;
+	margin:100px auto !important;
+}
+
+h1 {
+	text-align:center;
+	margin-bottom:50px;
+}
+
+label {
+	font-size:18px;
+	font-weight: bold;
+}
+
+.margin_top {
+	margin-top:35px;
+}
+
+#btn_count {
+	margin-top:50px;
+}
+
+#showResult {
+	display:none;
+	text-align:center;
+}
